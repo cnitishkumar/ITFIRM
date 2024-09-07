@@ -1,0 +1,557 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main-div{
+
+}
+
+.app-div{
+
+}
+.intro-main-div{
+    background-image:url('https://img.freepik.com/free-photo/modern-equipped-computer-lab_23-2149241221.jpg?w=1480&t=st=1725603021~exp=1725603621~hmac=468a9c29e2274a7bef2ef883533105a2b53b8c2d2dc94b0a5e79052205b89e37') ;
+
+height: 75vh;
+}
+.intro-div{
+   
+
+ height: auto;
+ background-size: cover;
+ background-position:center;
+ background-repeat: no-repeat;
+
+
+}
+
+.it-serve-agency-div{
+    background-color: #ffffffff;
+    padding: 7px;
+    padding-left:14px ;
+    padding-right:14px ;
+    width: fit-content;
+ border-radius: 20px;
+ margin-top: 30px;
+}
+.it-service-agency-text{
+    font-size: 17px;
+    /* color: #4942D5; */
+    background-image: linear-gradient(to right,#661feb,rgb(210, 79, 79));
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+ 
+
+}
+
+
+/* intro- div */
+
+.intro-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-div{
+    width: 59%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.intro-heading{
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.intro-tag-line{
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 30px;
+
+}
+
+.get-team-btn{
+    border: 0px;
+    background-image: linear-gradient(to right,#661FEB,#1F67F4);
+    color: #ffffff;
+    font-size: 17px;
+    padding: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+}
+
+.intro-ppl-bg-div{
+    background-image: url('https://media.gettyimages.com/id/1977348709/photo/laughing-young-businesswoman-talking-with-colleagues-in-an-office-hallway.jpg?s=612x612&w=0&k=20&c=E154A6GWX31Qe6KwfnMBMt27IN1RUKNIaorKTsVwDLE=');
+
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: right;
+
+ height:20vh;
+ max-height: 150px;
+
+}
+.ppl-overlay-div{
+    height:100%;
+    background-color:#E0E5EA;
+    opacity: .8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2%;
+}
+
+.ppl-content-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ppl-text{
+    display: flex;
+    color: #000000;
+   
+   /* margin-right: 10%; */
+   
+
+}
+.hr{
+ 
+  
+   display: inline-flex;
+
+}
+
+.comapny-logos{
+
+    width: 50%;
+    max-width: 500px;
+    height: 50px;
+    margin-bottom: -10px;
+  
+   
+}
+.hr{
+    
+   
+    width: 70px;
+    margin-right: 2%;
+    height: 2px;
+}
+
+.floating-cards-div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top:63vh;
+  z-index: 1;
+    
+}
+
+.floating-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 25%;
+height: 150px;
+   max-width: 150px;
+   max-height: 150px;
+
+    background-color: #ffffff;
+    margin: 10px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.float-card-title{
+    text-align: center;
+}
+
+.float-icon{
+    display: block;
+    margin-bottom: 20px;
+
+
+    font-size: 30px;
+    /* color: #4942D5; */
+    background-image: linear-gradient(to right,rgb(210, 79, 79),#661feb);
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+
+}
+.float-card-title{
+    color: #000000;
+    font-size: large;
+}
+
+
+/* section2 */
+
+
+
+.section-2-main-div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 5%;
+}
+
+.section-main-content-div{
+    width: 35%;
+}
+
+.section-2-main-heading{
+    font-size: xx-large;
+    color: #000000;
+    margin-bottom: 30px;
+}
+/* div{
+    border: 2px solid red;
+} */
+
+
+
+.about-our-company-text{
+
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border-radius: 20px;
+
+    font-size: 17px;
+    /* color: #4942D5; */
+    background-image: linear-gradient(to right,#661feb,rgb(210, 79, 79));
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color:transparent ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: fit-content;
+}
+.section-heading-span{
+    color: #5238BB;
+}
+
+.section-2-description-div{
+    border-left:2px solid #5238BB ;
+    height: 50px;
+    padding-left:10px ;
+    display: flex;
+    align-items:center;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+
+.section-2-desscription{
+    font-size: 15px;
+    /* color: #000000; */
+    color: gray;
+
+}
+.section-2-img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 70%;
+   max-height: 300px;
+   width: 30%;
+   max-width: 350px;
+
+   margin: 20px;
+}
+.section-2-img{
+    border-radius: 20px;
+   max-height: 300px;
+}
+
+.section-2-logos-row{
+    display: flex;
+    align-items: center;
+    border-top:1px solid gray ;
+    border-bottom:1px solid gray ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-2-log-div{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  
+}
+
+.sec-2-icon{
+    font-size: 30px;
+    /* color: #4942D5; */
+    background-image: linear-gradient(to right,rgb(210, 79, 79),#661feb);
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    margin-right: 10px;
+
+}
+
+
+/* help section */
+
+.healp-row-div{
+    display:flex;
+    align-items:center;
+}
+
+.money-gurentee-heading{
+    color: #000000;
+}
+.call-info-wraper{
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon-div{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border:1px solid  gray ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:20px ;
+    margin-left: 20px;
+
+
+}
+
+.phone-icon{
+    color: #1F67F4;
+    font-size: x-large;
+}
+
+
+/* sectin 3 */
+.section-3-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #EDEDF5;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    position: relative;
+}
+
+.section-3-main-heading{
+
+
+    font-size: xx-large;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+.bottom-card{
+    min-width: 180px;
+   min-height: 180px;
+
+   max-width: 200px;
+   max-height: 200px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffffff;
+    padding: 10px;
+   border-top-left-radius: 30px;
+   margin: 10px;
+   position: relative
+   ;
+}
+.bottom-icon-div{
+    position: absolute;
+     
+
+      transform: rotate(45deg);
+
+    top: -25px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-image: linear-gradient(to right,#661FEB,#1F67F4);
+    border-radius: 10px;
+
+    
+}
+
+.bootom-card-text{
+    text-align: center;
+    font-size: small;
+    color: gray;
+  
+}
+.bottom-card-content{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  
+   margin: 5px;
+}
+
+.bottom-card-icon{
+    font-size: 30px;
+    background-color:#ffffff;
+    background-size:cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+    transform: rotate(-45deg);
+
+
+}
+
+.bottom-card-title{
+    margin-top:4%;
+    text-align: center;
+}
+.hr-line{
+    background-image: linear-gradient(to right,#661FEB,#1F67F4);
+    height: 5px;
+    width: 50%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.cards-row{
+    display: flex;
+    flex-direction: row;
+  
+  
+}
+
+@media screen and (max-width : 765px){
+   
+      
+    .floating-cards-div{
+        position:absolute;
+        top: 68vh;
+
+        display: none;
+    }
+    .intro-main-div{
+        font-size: small;
+    }
+
+    .intro-main-div{
+        width: 100%;
+        height: auto;
+    }
+
+    .ppl-content-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comapny-logos{
+        width: 90%;
+    }
+    .hr{
+        display: none;
+    }
+
+    .section-2-main-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-main-content-div{
+        width: 100%;
+    }
+ /* bottom cards row */
+    .cards-row{
+        display: flex;
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+
+    .bottom-card{
+        width: 45%;
+       
+    }
+    .intro-ppl-bg-div{
+        height: 15vh;
+        /* margin-top: 50px; */
+    
+    }
+    .bottom-card-title{
+        text-align: center;
+    }
+    .bottom-card-content{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    
+}
+
+
+
+@media screen and (577px < width > 766px) {
+
+    
+}
+
+
+
+@media screen and (765px < width < 926px) {
+
+    .floating-cards-div{
+        position:absolute;
+        top: 68vh;
+        display: none;
+    }
+
+    .section-main-content-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-2-img-div{
+        width: 40%;
+    }
+
+    .section-main-content-div{
+        width: 50%;
+    }
+
+    
+}
